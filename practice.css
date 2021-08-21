@@ -1,0 +1,174 @@
+/* <<<<<<<<<<*Default_Css*>>>>>>>>>> */
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* <<<<<<<<<<*Header_Css*>>>>>>>>>>> */
+.header{
+    background-color: #101446;
+}
+.header-logo img{
+    width: 80px;
+    height: auto;
+}
+.header-menu{}
+.header-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 17px;
+    line-height: 45px;
+}
+
+
+/* <<<<<<<<<<*Banner_Css*>>>>>>>>>> */
+.banner{
+    background: url(https://i.postimg.cc/ZK6t2dhT/intro-bg.jpg) no-repeat bottom center;
+    background-size: cover;
+    padding: 200px 0;
+    color: #fff;
+    
+    position: relative;
+    z-index: 99;
+}
+.banner::after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.486);
+    z-index: -1;
+}
+.banner-content{
+}
+.banner-content h2{
+    font-size: 23px;
+    font-weight: 600;
+}
+.banner-content p{
+    font-size: 15px;
+}
+.banner-content h3{
+    color: #fff;
+    display: inline-block;
+    background-color: #337ab7;
+    font-size: 14px;
+    padding: 8px 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+/* <<<<<<<<<<*Team_Css*>>>>>>>>>> */
+.team{
+    background-color: #bac1f3;
+    padding: 100px 0;
+}
+.team h1{
+    font-size: 55px;
+}
+.col-md-3{
+    margin-left: 40px;
+}
+
+.team-item{
+    margin-left: 50px;
+}
+.team-item img{
+    width: 130px;
+    height: auto;
+}
+.team-item h3{
+    font-size: 12px;
+}
+.team-item p{
+    font-size: 13px;
+    color: rgb(83, 83, 83);
+}
+.team-item h4{
+    display: inline-block;
+    background-color: #337ab7;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* <<<<<<<<<<*About_CSS*>>>>>>>>>> */
+.about{
+    padding: 100px 0;
+    background-color: #c2d4ea;
+}
+.about h1{}
+.about-info{
+}
+.about-info img{
+    height: 145px;
+    width: auto;
+}
+.info {
+	font-size: 15px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.info2{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.about-me{
+    margin-top: 40px;
+}
+.about-me h3{
+    font-size: 25px;
+}
+.p1{
+    font-size: 15px;
+}
+.bold{
+    font-size: 21px;
+}
+
+
+/* <<<<<<<<<<*Contact_Css*>>>>>>>>>> */
+.contact{
+    padding: 50px 0;
+    background-color: #f5f5f5;
+}
+.contact h1{
+    font-size: 45px;
+}
+.btn{
+    font-size: 14px;
+    background-color: #5bc0de;
+}
+
+
+/* <<<<<<<<<<*Footer_CSS*>>>>>>>>> */
+.footer{
+    background-color: #0062d3;
+    color: #fff;
+}
+.p2{
+    margin-bottom: 0;
+}
+.p3{
+    width: 300px;
+    margin: auto;
+}
